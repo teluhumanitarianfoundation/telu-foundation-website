@@ -389,6 +389,283 @@ html{
     margin-top: -20px;
     padding-top: 100px;
     height: 600px;
+    width: 400px;
+    overflow-x: hidden !important;
+}
+
+ul{
+    display: block;
+    text-align: center;
+    
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: 'roboto';
+    font-size: 20px;
+
+    
+}
+
+
+#back{
+    width: 45px;
+    margin-left: 40px;
+}
+
+
+
+button{
+    background-color: rgb(3, 48, 30);
+    border: none;
+    padding: 12px 35px;
+    width: 120px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 12px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 15PX;
+}
+
+#res-button{
+    display: none;
+}
+
+#hamburger{
+   
+}
+
+#nav-button{
+     display: block;
+    position: absolute;
+    /* top: 10px; */
+    left: 250px;
+    margin-bottom: 40px;
+    width: 20px;
+}
+
+#nav-button img{
+    width: 20px;
+}
+
+
+#cancel{
+    display: none;
+    position: absolute;
+    top: 17px;
+    left: 320px;
+}
+
+#hamburger img{
+    width:50px;
+}
+
+#cancel img{
+    width:40px;
+}
+
+
+/* Container */
+
+.donate-content{
+    color: black;
+    height: 200px;
+    position: relative;
+    font-family: 'roboto';
+    z-index: -1;
+    overflow:hidden;
+}
+
+.donate-content h1{
+    color: black;
+    z-index: 2;
+    opacity: 1;
+    position: absolute; 
+    top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    left: 32px;
+    font-size: 20px;
+}
+
+.pre-content p{
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+.donate-option{
+    height: 1800px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.donate-option div{
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.donate-option div:hover{
+    opacity: 0.8;
+    transition:0.5s;
+}
+
+.feed{
+    background-image: url(./Image/I’m\ born\ to\ do\ this.jpeg);
+}
+
+.feed h2{
+    opacity:1 !important;
+}
+
+.feed img{
+    width: 250px;
+}
+
+.school{
+    background-image: url(./Image/Sponsor\ a\ Child\ -\ Christian\ Charity\ _\ Compassion\ Australia.jpeg);
+    opacity: 0.7;
+}
+
+.school img{
+}
+
+.custom{
+    background-color: white;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.custom img{
+    width: 320px;
+    margin-top: 120px;  
+    margin-left: 15px;
+}
+
+.note{
+    font-family: 'roboto';
+    position: absolute;
+    top: 780px;
+    font-size: 18px;
+    color: rgb(3, 48, 30);
+    left: 30px;
+}
+
+.note h2{
+
+}
+
+.note:hover{
+    opacity: 0.6;
+
+}
+
+.note-2{
+    font-family: 'roboto';
+    position: absolute;
+    top: 1390px;
+    font-size: 20px;
+    color: rgb(3, 48, 30);
+    left: 30px;
+    font-weight: bold;
+    opacity: 1;
+
+}
+
+.note-2:hover{
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+
+.note-3{
+    font-family: 'roboto';
+    position: absolute;
+    top: 1960px;
+    font-size: 20px;
+    color: rgb(3, 48, 30);
+    left: 30px;
+    font-weight: bold;
+}
+
+.note-3:hover{
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:460px) {
+    
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#nav-bar{
+    display: flex;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 1;
+    background-color: white;
+    width:1200px;
+    height: 60px;
+    overflow-x: hidden !important;
+}
+
+#logo{
+    margin-right: 180px;
+}
+
+#logo img{
+    width: 80px;
+    margin-left: 30px;
+}
+
+
+#nav-menu{
+    background-color: white;
+    display: none;
+    position: fixed;
+    margin-top: -20px;
+    padding-top: 100px;
+    height: 600px;
     width: 420px;
     overflow-x: hidden !important;
 }
@@ -585,5 +862,4 @@ button{
     cursor: pointer;
 
 }
-
 }
