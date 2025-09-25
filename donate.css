@@ -1,0 +1,589 @@
+/* Donate Page */
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+
+
+#nav-bar{
+    display: flex;
+    position: fixed;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    z-index: 1;
+    background-color: white;
+    width:1800px;
+    height: 60px;
+}
+
+#logo{
+    margin-right: 180px;
+}
+
+#logo img{
+    width: 100px;
+    margin-left: 30px;
+}
+
+
+#nav-menu{
+    display: none;
+}
+
+ul{
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    margin-top: 25px;
+    font-weight: bold;
+    font-family: 'roboto';
+
+    
+}
+
+#nav-button button{
+    display: block;
+}
+
+#nav-button img{
+    width: 30px;
+    margin-left:750px ;
+    margin-top: 10px;
+}
+
+#nav-button button:hover{
+    cursor: pointer;
+}
+
+button{
+    background-color: rgb(3, 48, 30);
+    border: none;
+    padding: 12px 35px;
+    width: 120px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 12px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 15PX;
+}
+
+#res-button{
+    display: none;
+}
+
+#hamburger{
+    display: none;
+}
+
+#cancel{
+    display: none;
+}
+
+
+body{
+    background-color: #F5F5F5;
+}
+
+
+
+/* Container */
+
+.donate-content{
+    color: black;
+    height: 200px;
+    position: relative;
+    font-family: 'roboto';
+    z-index: -1;
+    
+}
+
+.donate-content h1{
+    color: black;
+    z-index: 2;
+    opacity: 1;
+    position: absolute; 
+    top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    left: 210px;
+    font-size: 50px;
+}
+
+.pre-content p{
+    margin-left: 100px;
+    padding-left: 350px;
+    padding-top: 20px;
+}
+
+.donate-option{
+    height: 300px;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 0px;
+    /* margin-right: 20px; */
+}
+
+.donate-option div{
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.donate-option div:hover{
+    opacity: 0.8;
+    transition:0.5s;
+}
+
+.feed{
+    background-image: url(./Image/I’m\ born\ to\ do\ this.jpeg);
+}
+
+.feed h2{
+    opacity:1 !important;
+}
+
+.feed img{
+    width: 350px;
+}
+
+.school{
+    background-image: url(./Image/Sponsor\ a\ Child\ -\ Christian\ Charity\ _\ Compassion\ Australia.jpeg);
+    opacity: 0.7;
+}
+
+.school img{
+}
+
+.custom{
+    background-color: white;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.custom img{
+    width: 320px;
+    margin-top: 120px;  
+    margin-left: 15px;
+}
+
+.note{
+    font-family: 'roboto';
+    position: absolute;
+    top: 680px;
+    font-size: 20px;
+    color: rgb(3, 48, 30);
+    left: 50px;
+    width: 353px;
+}
+
+.note:hover{
+    opacity: 0.6;
+
+}
+
+.note-2{
+    font-family: 'roboto';
+    position: absolute;
+    top: 680px;
+    font-size: 20px;
+    color: rgb(3, 48, 30);
+    left: 460px;
+    font-weight: bold;
+    opacity: 1;
+
+}
+
+.note-2:hover{
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+
+.note-3{
+    font-family: 'roboto';
+    position: absolute;
+    top: 680px;
+    font-size: 20px;
+    color: rgb(3, 48, 30);
+    left: 880px;
+    font-weight: bold;
+}
+
+.note-3:hover{
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+
+
+/* Feed page */
+
+#feed-nav-button{
+    display: none;
+}
+
+.feed-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0px;
+    column-gap:200px;
+    z-index: -2;
+    overflow-y: hidden;
+    
+}
+
+.heading {
+    height: 200px;
+    position: relative;
+    margin-left: 50px;
+    z-index: -1;
+    
+}
+
+.feed-card{
+    height: 200px;
+    margin-top: 200px;
+    z-index: -1;
+
+}
+
+.feed-card h2{
+    position: absolute;
+    top: 100px;
+    color: black;
+    z-index: 1;
+    font-family: 'roboto';
+    margin-top: 50px;
+
+}
+
+.feed-card form{
+     position: absolute;
+    top: 100px;
+    color: black;
+    z-index: 1;
+    font-family: 'roboto';
+    margin-top: 100px;
+
+}
+
+label{
+    margin-bottom: 20px;
+
+}
+
+.feed-card input{
+    padding: 6px 50px;
+    margin-bottom: 15px;
+}
+
+.feed-card button{
+    background-color: purple;
+    width: 220px;
+    margin-left: -00px;
+    border-radius: 5px;
+}
+
+.heading h2{
+    position: absolute;
+    top: 100px;
+    color: black;
+    z-index: 1;
+    font-family: 'roboto';
+    margin-top: 50px;
+}
+
+.heading p{
+    font-family: 'roboto';
+    position: absolute;
+    top:200px;
+    color: black;
+    z-index: 1;
+    width: 500px;
+
+}
+
+.heading form{
+    position: absolute;
+    top: 350px;
+}
+
+.heading input{
+    padding: 10px 50px;
+    width: 340px;
+}
+
+
+/* Navigation Responsiveness */
+
+@media screen and (max-width:414px) {
+    
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#nav-bar{
+    display: flex;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 1;
+    background-color: white;
+    width:1200px;
+    height: 60px;
+    overflow-x: hidden !important;
+}
+
+#logo{
+    margin-right: 180px;
+}
+
+#logo img{
+    width: 80px;
+    margin-left: 30px;
+}
+
+
+#nav-menu{
+    background-color: white;
+    display: none;
+    position: fixed;
+    margin-top: -20px;
+    padding-top: 100px;
+    height: 600px;
+    width: 420px;
+    overflow-x: hidden !important;
+}
+
+ul{
+    display: block;
+    text-align: center;
+    
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: 'roboto';
+    font-size: 20px;
+
+    
+}
+
+#nav-button button{
+    
+}
+
+button{
+    background-color: rgb(3, 48, 30);
+    border: none;
+    padding: 12px 35px;
+    width: 120px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 12px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 15PX;
+}
+
+#res-button{
+    display: none;
+}
+
+#hamburger{
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 320px;
+}
+
+#cancel{
+    display: none;
+    position: absolute;
+    top: 17px;
+    left: 320px;
+}
+
+#hamburger img{
+    width:60px;
+}
+
+#cancel img{
+    width:40px;
+}
+
+/* Container */
+
+.donate-content{
+    color: black;
+    height: 200px;
+    position: relative;
+    font-family: 'roboto';
+    z-index: -1;
+    overflow:hidden;
+}
+
+.donate-content h1{
+    color: black;
+    z-index: 2;
+    opacity: 1;
+    position: absolute; 
+    top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    left: 32px;
+    font-size: 20px;
+}
+
+.pre-content p{
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+.donate-option{
+    height: 1800px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.donate-option div{
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.donate-option div:hover{
+    opacity: 0.8;
+    transition:0.5s;
+}
+
+.feed{
+    background-image: url(./Image/I’m\ born\ to\ do\ this.jpeg);
+}
+
+.feed h2{
+    opacity:1 !important;
+}
+
+.feed img{
+    width: 250px;
+}
+
+.school{
+    background-image: url(./Image/Sponsor\ a\ Child\ -\ Christian\ Charity\ _\ Compassion\ Australia.jpeg);
+    opacity: 0.7;
+}
+
+.school img{
+}
+
+.custom{
+    background-color: white;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.custom img{
+    width: 320px;
+    margin-top: 120px;  
+    margin-left: 15px;
+}
+
+.note{
+    font-family: 'roboto';
+    position: absolute;
+    top: 770px;
+    font-size: 18px;
+    color: rgb(3, 48, 30);
+    left: 30px;
+}
+
+.note h2{
+
+}
+
+.note:hover{
+    opacity: 0.6;
+
+}
+
+.note-2{
+    font-family: 'roboto';
+    position: absolute;
+    top: 1360px;
+    font-size: 20px;
+    color: rgb(3, 48, 30);
+    left: 30px;
+    font-weight: bold;
+    opacity: 1;
+
+}
+
+.note-2:hover{
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+
+.note-3{
+    font-family: 'roboto';
+    position: absolute;
+    top: 1960px;
+    font-size: 20px;
+    color: rgb(3, 48, 30);
+    left: 30px;
+    font-weight: bold;
+}
+
+.note-3:hover{
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+
+}

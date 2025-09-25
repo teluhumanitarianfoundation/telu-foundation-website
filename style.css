@@ -24,7 +24,7 @@ body{
     padding-bottom: 10px;
     z-index: 1;
     background-color: white;
-    width:1200px;
+    width:1800px;
     height: 60px;
 }
 
@@ -59,8 +59,8 @@ a{
     
 }
 
-#nav-button button{
-    
+#nav-button button:hover{
+    cursor: pointer;
 }
 
 button{
@@ -98,7 +98,7 @@ button{
 
 #image-content img{
    margin-top: 100px;
-   width: 1200px;
+   width: 1300px;
 }
 
 #welcome-text{
@@ -205,10 +205,11 @@ hr{
     width: 165px;
     margin-left: -20px;
     border: 2px solid rgb(255, 80, 80);
+    cursor: pointer;
 }
 
 #team button:hover{
-    box-shadow:  8px 8px 8px rgba(0, 0, 0, 0#3);
+    box-shadow:  8px 8px 8px rgba(0, 0, 0, 03);
 }
 
 #purple{
@@ -246,8 +247,8 @@ hr{
 }
 
 #purple img{
-    width: 1200px;
-    margin-left: 0px;
+    width: 950px;
+    margin-left: 95px;
 }
 
 #message{
@@ -270,7 +271,6 @@ hr{
     font-family: 'roboto';
     color: rgb(15, 66, 45);
     margin-bottom: 200px;
-    /* display: none; */
 }
 
 #second-white-background h1{
@@ -310,7 +310,7 @@ hr{
     padding-left: 20px;
     font-family: 'roboto';
     font-weight: bolder;
-    opacity: 0#7;
+    opacity: 07;
 }
 
 #one-grid h2{
@@ -342,18 +342,19 @@ hr{
 }
 
 #first{
-    /* height: 300px;*/
     background-image: url(#/image/oyibo#jpg);
+    border-radius: 5px;
 }
 
 #first img{
     width: 350px;
+    border-radius: 20px;
 }
 
 #second{
     background-color: skyblue;
     height: 300px;
-    opacity: 0#8;
+    opacity: 08;
 
 }
 
@@ -385,7 +386,7 @@ hr{
 #third{
     background-color: rgb(236, 96, 49);
     height: 300px;
-    opacity: 0#8;
+    opacity: 08;
 }
 
 #third h2{
@@ -415,7 +416,7 @@ hr{
 #fourth{
     background-color: skyblue;
     height: 300px;
-    background-image: url(./image/indiana.jpg);
+    background-image: url(./image/Portrait\ male\ student\ with\ books\ _\ Free\ Photo.jpg);
     background-position: center;
 }
 
@@ -424,7 +425,7 @@ hr{
     border-radius: 10px 10px 0px 0px;
     /* margin-bottom: 20px; */
     height: 30px;
-    opacity: 0#7;
+    opacity: 07;
 }
 
 #purple-line p{
@@ -454,6 +455,11 @@ hr{
     padding-bottom: 25px;
     text-align: center;
     margin-left: 500px;
+    color: white !important;
+}
+
+#donate-cta button a{
+    color: white;
 }
 
 
@@ -548,6 +554,22 @@ footer{
     font-weight:300;
     font-size: 16px;
     margin-right: 50px;
+}
+
+
+
+/* Donate Page */
+
+body{
+    background-color: #F5F5F5;
+}
+
+.donate-content{
+    color: black;
+}
+
+.donate-content h2{
+    margin-top: 2px;
 }
 
 
@@ -700,8 +722,8 @@ button{
 
 #image-content img{
    margin-top: 100px;
-   width: 440px;
-   height: 240px;
+   width: 580px;
+   /* height: 240px; */
 }
 
 #welcome-text{
@@ -821,12 +843,12 @@ hr{
 }
 
 #team button:hover{
-    box-shadow:  8px 8px 8px rgba(0, 0, 0, 0#3);
+    box-shadow:  8px 8px 8px rgba(0, 0, 0, 03);
 }
 
 #purple{
     background-color: rgba(223, 212, 223, 0#348);
-    height: 1200px;
+    height: 1300px;
     margin-top: 0px;
     font-family: 'roboto';
     padding-top: 120px;
@@ -862,7 +884,7 @@ hr{
 
 #purple img{
     width: 400px;
-    height: 220px;
+    /* height: 220px; */
     margin-left: 8px;
     margin-right: 10px;
     margin-bottom: 0px;
@@ -885,7 +907,7 @@ hr{
     font-family: 'roboto';
     color: rgb(15, 66, 45);
     margin-bottom: 200px;
-    margin-top: 70px;
+    margin-top: 10px;
     margin-bottom: 200px;
     overflow-y: hidden;
 }
@@ -957,18 +979,19 @@ hr{
 }
 
 #two-grid div{
-    /* border-radius: 20px; */
-    height: 300px;
+    height: 350px;
+    overflow-y: hidden;
     margin-right: 100px;
 }
 
 #first{
     margin-left: 100px;
     background-image: url(./image/oyibo.jpg);
+    background-repeat: no-repeat;
 }
 
 #first img{
-    width: 300px;
+    width: 360px;
     margin-right: 100px;
     background-repeat: no-repeat;
 
@@ -976,7 +999,6 @@ hr{
 
 #second{
     background-color: skyblue;
-    /* height: 300px; */
     opacity: 0.8;
     margin-left: 100px;
     margin-right: 10px;
@@ -1045,8 +1067,9 @@ hr{
 #fourth{
     background-color: skyblue;
     height: 300px;
-    background-image: url(./image/indiana.jpg);
-    background-position: center;
+    background-image: url(./image/Portrait\ male\ student\ with\ books\ _\ Free\ Photo.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
     margin-left: 100px;
     width: 350px;
 }
@@ -1056,7 +1079,7 @@ hr{
     border-radius: 0px 0px 0px 0px;
     margin-top: -20px;
     height: 10px;
-    opacity: 0#7;
+    opacity: 07;
 }
 
 #purple-line p{
